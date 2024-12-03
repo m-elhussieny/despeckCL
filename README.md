@@ -35,6 +35,12 @@ Requirements
 8. <a href="http://sphinx-doc.org/">Sphinx</a> for building the documentation (optional)
 9. despeckCL uses <a href="https://github.com/google/googletest">Google Test</a> for unit testing and <a href="https://github.com/easylogging/easyloggingpp/">Easylogging++</a> for logging. Google Test is automatically checked out from github when building despeckCL and Easylogging++ is shipped directly with the source.
 
+libs
+------------
+```shell
+sudo apt-get install cmake python3-sphinx libboost-all-dev ocl-icd-opencl-dev gsl swig
+```
+
 Building, Testing and Installation
 ----------------------------------
 
